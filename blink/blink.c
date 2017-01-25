@@ -1,4 +1,5 @@
 #include <msp430.h>
+// Note: 0b00000001 = BIT0
 
 int main(void) {
 
