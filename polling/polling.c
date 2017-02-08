@@ -18,7 +18,6 @@ int main(void) {
 // Creates an infinite loop waiting for the button to be pressed
   for (;;) {
     // If not P1 input AND BIT3 
-    // Will make all pins of P1 zero except for BIT3 
     if (!(BIT3 & P1IN)) {
       // Toggle LED at P1.0
       P1OUT ^= BIT0;
