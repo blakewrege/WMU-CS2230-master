@@ -1,12 +1,11 @@
 # Blink LED Tutorial 
-[![Alt text](https://img.youtube.com/vi/nVEi3oidXM8/0.jpg)](https://www.youtube.com/watch?v=nVEi3oidXM8)(click image for video)
-<br>Tutorial demonstrating how to blink an LED with an MSP430 as well as how to wire up an external LED to a breadboard. 
+[![Alt text](https://img.youtube.com/vi/nVEi3oidXM8/0.jpg)](https://www.youtube.com/watch?v=nVEi3oidXM8)(click image for video)  
+Tutorial demonstrating how to blink an LED with an MSP430 as well as how to wire up an external LED to a breadboard. 
 ## Materials
 - MSP430
 - Breadboard
 - 2 Jumper Wires
 - 5mm Red LED
-
 ## Steps
 - Insert the LED into the breadboard
 - Connect a jumper cable to P1.0 and the breadboard in same row as the LED
