@@ -5,7 +5,8 @@ Tutorial for driving the piezo element with a PWM signal from the MSP430.
 - MSP430
 - Piezo Speaker
 - 4 Jumper Wires
-- Bread Board
+- Bread Board  
+
 ## Steps
 - Create the executable by running `make`
 - Flash the executable to your msp430 `sudo make flash`
