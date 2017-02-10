@@ -6,6 +6,7 @@ Tutorial demonstrating how to wire and use an RGB LED with the MSP430.
 - 4 Jumper Wires
 - RGB Led
 - Bread Board
+
 ## Steps
 - Wire your board according to the diagram of your RGB LED(cathode or anode)
 - Create the executable by running `make`
