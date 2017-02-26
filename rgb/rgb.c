@@ -5,7 +5,7 @@
 // GREEN -> P1.2 -> BIT2
 // Blue -> P1.3 -> BIT3
 void rgb(char RED, char GREEN, char BLUE) {
-  P1OUT = RED << 1 | GREEN << 2 | BLUE << 3;
+  P1OUT = RED << 1 | GREEN << 2 | BLUE << 4;
 }
 
 int main(void) {
@@ -18,7 +18,7 @@ int main(void) {
 
   // Sets the P1.1, P1.2 and P1.3 direction to output
   // This is equivalent to P1DIR = BIT1+BIT2+BIT3;
-  P1DIR = 0b00001110;
+  P1DIR   = ~BIT3;
 
 // Infinite loop changing the LED color
   for (;;) {
